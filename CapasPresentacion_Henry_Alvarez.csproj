@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E92FF9D2-A862-4C68-93BC-180BD6694C09}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CapasPresentacion_Henry_Alvarez</RootNamespace>
+    <AssemblyName>CapasPresentacion_Henry_Alvarez</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Presentacion - Views\AutorDelTitulo\frmAutorDelTitulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion - Views\AutorDelTitulo\frmAutorDelTitulo.Designer.cs">
+      <DependentUpon>frmAutorDelTitulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion - Views\Autores\frmAutores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion - Views\Autores\frmAutores.Designer.cs">
+      <DependentUpon>frmAutores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion - Views\Descuentos\frmDescuentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion - Views\Descuentos\frmDescuentos.Designer.cs">
+      <DependentUpon>frmDescuentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion - Views\Employee\frmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion - Views\Employee\frmEmployee.Designer.cs">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion - Views\frmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion - Views\frmMenuPrincipal.Designer.cs">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion - Views\Jobs\frmJobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion - Views\Jobs\frmJobs.Designer.cs">
+      <DependentUpon>frmJobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion - Views\PublishersInfo\frmPublishersInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion - Views\PublishersInfo\frmPublishersInfo.Designer.cs">
+      <DependentUpon>frmPublishersInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion - Views\Publishers\frmPublishers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion - Views\Publishers\frmPublishers.Designer.cs">
+      <DependentUpon>frmPublishers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion - Views\Roysched\frmRoysched.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion - Views\Roysched\frmRoysched.Designer.cs">
+      <DependentUpon>frmRoysched.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion - Views\Stores\frmStores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion - Views\Stores\frmStores.Designer.cs">
+      <DependentUpon>frmStores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion - Views\Titulos\frmTitulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion - Views\Titulos\frmTitulos.Designer.cs">
+      <DependentUpon>frmTitulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion - Views\Ventas\frmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion - Views\Ventas\frmVentas.Designer.cs">
+      <DependentUpon>frmVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Presentacion - Views\AutorDelTitulo\frmAutorDelTitulo.resx">
+      <DependentUpon>frmAutorDelTitulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion - Views\Autores\frmAutores.resx">
+      <DependentUpon>frmAutores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion - Views\Descuentos\frmDescuentos.resx">
+      <DependentUpon>frmDescuentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion - Views\Employee\frmEmployee.resx">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion - Views\frmMenuPrincipal.resx">
+      <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion - Views\Jobs\frmJobs.resx">
+      <DependentUpon>frmJobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion - Views\PublishersInfo\frmPublishersInfo.resx">
+      <DependentUpon>frmPublishersInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion - Views\Publishers\frmPublishers.resx">
+      <DependentUpon>frmPublishers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion - Views\Roysched\frmRoysched.resx">
+      <DependentUpon>frmRoysched.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion - Views\Stores\frmStores.resx">
+      <DependentUpon>frmStores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion - Views\Titulos\frmTitulos.resx">
+      <DependentUpon>frmTitulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion - Views\Ventas\frmVentas.resx">
+      <DependentUpon>frmVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Datos - Models\" />
+    <Folder Include="Logica - Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clasificacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clasificacion %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alquiler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trabajar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edicion-de-imagen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diseno-de-interfaz-de-usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tasa-de-interes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\store-front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metodo-de-pago.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escritor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visual-basico.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
